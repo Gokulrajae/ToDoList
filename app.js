@@ -50,6 +50,7 @@ app.post("/", function(req, res) {
 
 });
 
+// seperate work list accesed by --->http://localhost:3000/work
 
 app.get("/work", function(req, res) {
   res.render("list", {
