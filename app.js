@@ -72,7 +72,7 @@ app.listen(3000, function() {
 });
 
 
-
+// Easy method to get day
 
 // var day="";
 // var weekDays =["sunday","monday","tuesday","wednesday","thursday","friday","saturday"];
