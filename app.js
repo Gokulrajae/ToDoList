@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({
 app.use(express.static("public"));
 mongoose.connect("mongodb+srv://admin-gokul:IMepFxgqsd1LwIoR@cluster0.gipgn.mongodb.net/todolistDB");
 
-var items = ["Take Tablets", "Make a call to abc Technology", "Visit the construction work by 4pm"];
+//var items = ["Take Tablets", "Make a call to abc Technology", "Visit the construction work by 4pm"];
 var day = "";
 let workItems = [];
 
@@ -34,7 +34,7 @@ const itemsSchema = new mongoose.Schema({
 const Item = mongoose.model("Item",itemsSchema);
 
 const item1 = new Item({
-  name:"welcome to uour todolist"
+  name:"welcome to our todolist"
 });
 
 const item2 = new Item({
